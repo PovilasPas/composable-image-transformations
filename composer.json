@@ -1,0 +1,21 @@
+{
+    "name": "povilaspas/composable-image-transformations",
+    "description": "Provides a way to apply several transformations to images in a convenient manner",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PovilasPas\\ComposableImageTransformations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PovilasPas"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.4",
+        "ext-gd": "*"
+    }
+}
